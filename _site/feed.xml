@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-09T06:37:48-08:00</updated><id>http://localhost:4000/</id><title type="html">Sam Vongsay</title><subtitle>I am always excited to learn new things.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-03-09T01:57:24-08:00</published><updated>2018-03-09T01:57:24-08:00</updated><id>http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-12T23:12:00-07:00</updated><id>http://localhost:4000/</id><title type="html">Sam Vongsay</title><subtitle>I am a software developer that is always excited to learn new things.</subtitle><entry><title type="html">Weekend Project</title><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" title="Weekend Project" /><published>2018-03-12T00:00:00-07:00</published><updated>2018-03-12T00:00:00-07:00</updated><id>http://localhost:4000/weekend-project</id><content type="html" xml:base="http://localhost:4000/blog/">&lt;p&gt;First a background. Long story short, my dad is cheap and our family does not do a lot of printing. I have a printer that has no network capabilities. 
+So both ethernet and wireless connections would not work. This got me thinking about how can I connect the printer to my desktop in another room. 
+My idea is to connect another computer with network capabilities to the printer. Therefore, my desktop is connected to the router which also connects
+the computer with the printer.&lt;/p&gt;
+
+&lt;p&gt;Coincidently, my family has gone through a few personal built desktops which are not being used since they are well dated. On a hardware level, I had everything.&lt;/p&gt;
+
+&lt;p&gt;Checklist:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Computer&lt;/li&gt;
+    &lt;li&gt;Printer&lt;/li&gt;
+    &lt;li&gt;Router&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My first problem I ran into is installing a new operating system. All my computers that I use are Linux distributions (Fedora) and I liked the “simplicity.”
+One of the computer doesn’t allow me to boot into the BIOS so I can change the boot order. This prevented me from running Fedora on my usb drive which was my
+method of installation. My conjecture is that it does not allow USB input on boot which is how my keyboard is connected. I think if I had a PS/2 adapter, this
+would have worked out. However, I have long since thrown it out because it is 2018 and who uses PS/2? Instead, I sucessfully installed Fedora on another computer.&lt;/p&gt;
+
+&lt;p&gt;Since my goal is to only turning on the computer in order to use its printing services, I would need to keep it on suspend/hibernate mode. I cannot afford to
+keep it on all day everyday because my printing services are rare at best and my family isn’t rich. My solution is to send a network signal to the computer so it 
+can wake up. This is where I came to a giant wall. The hardware is so old, it does not have a “Wake-On-Lan” option on the BIOS which is needed for my plan to work.
+After searching for hours, I learned this:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;It is impossible to send packets to a computer that does not have Wake-On-Lan enabled.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus, my weekend was pretty much wasted.&lt;/p&gt;
+
+&lt;p&gt;What did I learn through this?&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Always do research first before starting&lt;/li&gt;
+    &lt;li&gt;It never hurts to keep things even if you do not need it at the moment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Afterthought&lt;/b&gt;
+&lt;br /&gt;
+I might revisit this project sometime later once I have calmed down. Although, I do not think I will be using it for printing services since I plan to invest in 
+a printer that has network capabilities. Instead I will use it as a backup storage so I can do daily/weekly backups. I found out that the computer could be 
+powered on by the system time so I can set a certain time that I am not using it to run a backup program.&lt;/p&gt;
+
+&lt;p&gt;There are a few solutions I have not tried. One is related to the “Power on by Ring” feature in the BIOS. It wakes the computer when a ring occurs. You may remember
+it as a phone call which would disconnect you from the internet along with an excruciating painful sound. Or if you were not part of this era, a fax also does this.
+My plan is to get a microprocessors like an Arduino or a Raspberry Pi and mimic the signal when I send a packet to it. Another option is to use the “Power on by PME#”
+feature on the BIOS. I would need to do more research on how to generate a signal to trigger the event.&lt;/p&gt;
+
+&lt;p&gt;Overall, I feel like I wasted an entire weekend. I did learn many things from the hardware aspect and the Linux environment. I hope for better things to run smoothly
+in the future.&lt;/p&gt;</content><author><name></name></author><summary type="html">First a background. Long story short, my dad is cheap and our family does not do a lot of printing. I have a printer that has no network capabilities. So both ethernet and wireless connections would not work. This got me thinking about how can I connect the printer to my desktop in another room. My idea is to connect another computer with network capabilities to the printer. Therefore, my desktop is connected to the router which also connects the computer with the printer.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-03-09T01:57:24-08:00</published><updated>2018-03-09T01:57:24-08:00</updated><id>http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
