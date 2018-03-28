@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Weekend Project 
-permalink: /blog/
+categories: jekyll update
 ---
 
 First a background. Long story short, my dad is cheap and our family does not do a lot of printing. I have a printer that has no network capabilities. 

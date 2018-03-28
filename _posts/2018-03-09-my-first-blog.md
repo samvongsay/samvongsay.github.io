@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: First blog 
-permalink: /blog/1
+categories: jekyll update
 ---
 
 This is my first blog and what better way to start it all off than to document the creation of this website? I never had the motivation to learn front-end web development mainly because I was busy with learning other things. Once I got started, I found myself to enjoy the process.

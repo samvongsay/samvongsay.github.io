@@ -17,6 +17,7 @@ title: Sam Vongsay
 email: sdvongsay@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   I am a software developer that is always excited to learn new things.
+
 #Social links
 github_username:    s-vong
 linkedin_username:  samvongsay 
@@ -27,6 +28,10 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
