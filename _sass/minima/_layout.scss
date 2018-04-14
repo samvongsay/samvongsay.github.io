@@ -252,3 +252,30 @@
     }
   }
 }
+
+/**
+ * Home 
+ */
+.home-profile {
+    float: left;
+
+    img {
+        display: block;
+    }
+}
+
+.home-content { 
+    margin-left: 250px;
+}
+
+.home-title {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+/**
+ * Project
+ */
+.footnote {
+    font-size: 80%;
+}
