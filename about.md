@@ -8,4 +8,3 @@ I graduated from University of California: Riverside in Summer of 2017 with a Ba
 
 My life outside of my career is spent on my hobbies which are badminton, dance and food just to name a few. YouTube is my mode of entertainment when I just want to relax where I tend to watch comedians, dance or just random facts most people might not know. I am introverted, but not opposed to socializing. Small talk is my bane whereas meaningful conversations is something I enjoy.  
 
-<script type="text/javascript" src="data/alert.js">test()</script>
