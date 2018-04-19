@@ -18,6 +18,7 @@ will make minimization harder. Historically, 2 layers were used (1 being the hid
 
 <p>
 During each layer, we must also define which activation function to use.
+</p>
 Keras Activation functions:
 <ul>
   <li>softmax</li>
@@ -31,6 +32,7 @@ Keras Activation functions:
   <li>hard_sigmoid</li>
   <li>linear</li>
 </ul>
+<p>
 More "advanced" activation functions can be found with Keras.
 </p>
 
@@ -38,21 +40,26 @@ More "advanced" activation functions can be found with Keras.
 <p>
 On the compile step, we can define the loss function, optimizer, and metrics. The loss function and optimizer are both required to compile the model.
 Let's start with the optimizer. We are looking to minimize the error or variance(?) on the accuracy.
+</p>
 Keras Optimizers:
-<li>SGD (Stochastic gradient-descent)</li>
-<li>RMSprop</li>
-<li>Adagrad</li>
-<li>Adadelta</li>
-<li>Adam</li>
-<li>Adamax</li>
-<li>Nadam</li>
-<li>TFOptimizer</li>
+<ul>
+  <li>SGD (Stochastic gradient-descent)</li>
+  <li>RMSprop</li>
+  <li>Adagrad</li>
+  <li>Adadelta</li>
+  <li>Adam</li>
+  <li>Adamax</li>
+  <li>Nadam</li>
+  <li>TFOptimizer</li>
+</ul>
+<p>
 Each optimizer has its own arguments you may tune to fit your project. Some could be left to the default to limit the amount of tuning you have to do. What seems to be common with all the optimizers is
 the usage of lr (learning rate) and decay.
 </p>
 
 <p>
 I have heard of loss functions before, but with no experience with handling it.
+</p>
 Keras Loss Functions: 
 <ul>
   <li>mean_squared_error</li>
@@ -70,12 +77,14 @@ Keras Loss Functions:
   <li>poisson</li>
   <li>cosine_proximity</li>
 </ul>
+<p>
 Each loss function has two arguements, y_true and y_pred. The easier approach is to pass the name of the loss function (ie. 'mean_squared_error').
 </p>
 
 <p>
 For metrics, according to the documentation, we set the metrics to 'accuracy' when encountering 
 a classification problem. Metrics are essentially loss functions with results from "evaluating a metric are not used when training a model".
+</p>
 Keras Metrics:
 <ul>
   <li>binary_accuracy</li>
@@ -84,6 +93,7 @@ Keras Metrics:
   <li>top_k_categorical_accuracy</li>
   <li>sparse_top_k_categorical_accuracy</li>
 </ul>
+<p>
 A custom metric may also be passed where y_true and y pred are the arguments and the return value is a single tensor value.
 </p>
 
