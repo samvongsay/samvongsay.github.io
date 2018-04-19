@@ -19,16 +19,18 @@ will make minimization harder. Historically, 2 layers were used (1 being the hid
 <p>
 During each layer, we must also define which activation function to use.
 Keras Activation functions:
-- softmax
-- elu (Exponential linear unit)
-- selu (Scaled exponential linear unit)
-- softplus
-- softsign
-- relu
-- tanh
-- sigmoid
-- hard_sigmoid
-- linear
+<ul>
+  <li>softmax</li>
+  <li>elu (Exponential linear unit)</li>
+  <li>selu (Scaled exponential linear unit)</li>
+  <li>softplus</li>
+  <li>softsign</li>
+  <li>relu</li>
+  <li>tanh</li>
+  <li>sigmoid</li>
+  <li>hard_sigmoid</li>
+  <li>linear</li>
+</ul>
 More "advanced" activation functions can be found with Keras.
 </p>
 
@@ -37,14 +39,14 @@ More "advanced" activation functions can be found with Keras.
 On the compile step, we can define the loss function, optimizer, and metrics. The loss function and optimizer are both required to compile the model.
 Let's start with the optimizer. We are looking to minimize the error or variance(?) on the accuracy.
 Keras Optimizers:
-- SGD (Stochastic gradient-descent)
-- RMSprop
-- Adagrad
-- Adadelta
-- Adam
-- Adamax
-- Nadam
-- TFOptimizer
+<li>SGD (Stochastic gradient-descent)</li>
+<li>RMSprop</li>
+<li>Adagrad</li>
+<li>Adadelta</li>
+<li>Adam</li>
+<li>Adamax</li>
+<li>Nadam</li>
+<li>TFOptimizer</li>
 Each optimizer has its own arguments you may tune to fit your project. Some could be left to the default to limit the amount of tuning you have to do. What seems to be common with all the optimizers is
 the usage of lr (learning rate) and decay.
 </p>
@@ -52,20 +54,22 @@ the usage of lr (learning rate) and decay.
 <p>
 I have heard of loss functions before, but with no experience with handling it.
 Keras Loss Functions: 
-- mean_squared_error
-- mean_absolute_error
-- mean_absolute_percentage_error
-- mean_squared_logarithmic_error
-- squared_hinge
-- hinge
-- categorical_hinge
-- logcosh
-- categorical_crossentropy
-- sparse_categorical_crossentropy
-- binary_crossentropy
-- kullback_leibler_divergence
-- poisson
-- cosine_proximity
+<ul>
+  <li>mean_squared_error</li>
+  <li>mean_absolute_error</li>
+  <li>mean_absolute_percentage_error</li>
+  <li>mean_squared_logarithmic_error</li>
+  <li>squared_hinge</li>
+  <li>hinge</li>
+  <li>categorical_hinge</li>
+  <li>logcosh</li>
+  <li>categorical_crossentropy</li>
+  <li>sparse_categorical_crossentropy</li>
+  <li>binary_crossentropy</li>
+  <li>kullback_leibler_divergence</li>
+  <li>poisson</li>
+  <li>cosine_proximity</li>
+</ul>
 Each loss function has two arguements, y_true and y_pred. The easier approach is to pass the name of the loss function (ie. 'mean_squared_error').
 </p>
 
@@ -73,11 +77,13 @@ Each loss function has two arguements, y_true and y_pred. The easier approach is
 For metrics, according to the documentation, we set the metrics to 'accuracy' when encountering 
 a classification problem. Metrics are essentially loss functions with results from "evaluating a metric are not used when training a model".
 Keras Metrics:
-- binary_accuracy
-- categorical_accuracy
-- sparse_categorical_accuracy
-- top_k_categorical_accuracy
-- sparse_top_k_categorical_accuracy
+<ul>
+  <li>binary_accuracy</li>
+  <li>categorical_accuracy</li>
+  <li>sparse_categorical_accuracy</li>
+  <li>top_k_categorical_accuracy</li>
+  <li>sparse_top_k_categorical_accuracy</li>
+</ul>
 A custom metric may also be passed where y_true and y pred are the arguments and the return value is a single tensor value.
 </p>
 
