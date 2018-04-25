@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Activation Functions
-categories: machine learning
+categories: keras 
 ---
 
 <h2>Activation Functions</h2>
