@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Keras
-category: jekyll update
+categories: keras 
 ---
 
 <h2>Learning Keras with ancient memory</h2>
