@@ -4,10 +4,9 @@ title: Activation Functions
 categories: keras 
 ---
 
-<h2>Activation Functions</h2>
+<h2>Introduction</h2>
 
 <p>
-Let me preface this by stating that the information is 100% correct. 
 All of the information I post from here on out are gathered from various sources online by a simple Google search. As such, I cannot guarantee that the information has been flushed out. This is a complex topic and I am not a prodigy that can pick up concepts the first time around. Having taken one class on machine learning does make it easier. However, it was only the basics of each concept. Let me remind you that much of the information is something extremely smart people have worked out for years. 
 My process of picking up machine learning is to learn each aspect of neural networks one at a time. With that in mind, let's start with activation functions. Since this blog is not to be meant to teach, I will not be explaining concepts in such a way a beginner would understand. This blog is meant to be my journal of my journey to mastering (a man can dream) machine learning.
 </p>
