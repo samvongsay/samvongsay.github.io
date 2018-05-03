@@ -34,6 +34,9 @@ Exponential linear unit maintains a direct relation between the inputs and outpu
 <b>Selu (Scaled Exponential Linear Unit)</b>
 <p>
 This activation function is by far the most interesting, but also difficult to understand. The reason is that this was recently discovered in June 2017 by Klambauer, Unterthiner, Mayr and Hochreiter (Keras cites 'Klambauer et al., 2017) in their thesis "Self-Normalizing Neural Networks." This is my first time reading a paper written for academic purposes. By the time of writing this, the latest version was updated on September 2017. Another reason for the difficulty is that the paper is over 100 pages long with >50% of it dedicated to maths including various proofs. I will explore the concept in a later post as the paper is a substantial read. 
+<br />
+
+Update: Here is the <a href="www.samvongsay.com/keras/2018/05/03/selu.html">link</a> that explores the concept. 
 </p>
 
 <b>Softplus</b>
