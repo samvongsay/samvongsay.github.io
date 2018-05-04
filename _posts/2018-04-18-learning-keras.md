@@ -83,7 +83,7 @@ Each loss function has two arguements, y_true and y_pred. The easier approach is
 
 <p>
 For metrics, according to the documentation, we set the metrics to 'accuracy' when encountering 
-a classification problem. Metrics are essentially loss functions with results from "evaluating a metric are not used when training a model".
+a classification problem. Metrics are essentially loss functions that evaluates the performance of the model, but the results are not used on training the model. 
 </p>
 Keras Metrics:
 <ul>
