@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #Social links
 github_username:    s-vong
 linkedin_username:  samvongsay 
+twitter_username: sam_vongsay
 
 # Build settings
 markdown: kramdown
