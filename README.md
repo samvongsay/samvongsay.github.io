@@ -1,4 +1,4 @@
-# s-vong.github.io
+# samvongsay.github.io
 
 ## About
 This is my personal website that contains projects and blog posts.
